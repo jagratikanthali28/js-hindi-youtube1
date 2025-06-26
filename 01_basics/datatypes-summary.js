@@ -37,3 +37,27 @@ console.log("hii");
  console.log(heros);
  console.log(myObj);
  console.log(myFunction);
+
+
+
+
+ //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ //Stack(Primitive) , Heap(Non-Primitive)
+
+ let myname="jagrati";
+ let copyname=myname
+ console.log(myname)
+ console.log(copyname);
+ copyname="gauri";
+  console.log(myname)
+ console.log(copyname);
+
+ let user1={
+    email:"user@google",
+    upi:"user@ybl"
+ }
+ let userTwo=user1;
+ userTwo.email="jaggu@gmail.com";
+ user1.email="yes";
+ console.log(user1);
+ console.log(userTwo);
