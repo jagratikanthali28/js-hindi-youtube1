@@ -1,12 +1,19 @@
 console.log("hii");
+let age=20;
+let s=null;
 //primitive data type
 //7 types
- //1 String , Number,Boolean, null,undefined,Bigint,Symbol
+//1 String , Number,Boolean, null,undefined,Bigint,Symbol
+
+//NULL => STANDALONE VALUE 
+//undefined => declear but not assign any value
 
  //2 non primitive
  //reference(Non primitive)
  //Array, Objects, Functions
-
+console.log(typeof age);
+console.log(typeof null)
+console.log(typeof undefined)
  const score=100;
  const scoreValue=100.3;
  const isLoogedIn=false;
