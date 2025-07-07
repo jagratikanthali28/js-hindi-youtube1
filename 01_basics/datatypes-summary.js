@@ -22,7 +22,7 @@ console.log(typeof undefined)
 
  const id=Symbol('123')
  const anotherId=Symbol('123');
- console.log(id===anotherId);
+ console.log(id===anotherId);    //false
 
  const bigInter=13565432;
  console.log(bigInter);   //bigInteger
