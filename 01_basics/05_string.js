@@ -7,8 +7,8 @@ console.log(name+repoCount+"value")
 console.log(`this is my ${name} and my repocount ${repoCount}`);
 
 const gameName= new String('jagartiv')
-console.log(gameName[0]);
-console.log(gameName._proto_);
+console.log(gameName[0]);   //j 
+console.log(gameName._proto_);     
 
 console.log(gameName.length);
 console.log(gameName.toUpperCase());

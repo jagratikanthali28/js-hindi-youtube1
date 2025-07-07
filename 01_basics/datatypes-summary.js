@@ -46,9 +46,7 @@ console.log(typeof undefined)
  console.log(myFunction);
 
 
-
-
- //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
  //Stack(Primitive) , Heap(Non-Primitive)
 
  let myname="jagrati";
