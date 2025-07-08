@@ -1,6 +1,6 @@
 // function reduction the repreatation and code redundancy in the code
 console.log("J");
-console.log("A")
+console.log("A")  //lecture aata hai pura done
 console.log("G")
 console.log("R")
 console.log("A")
