@@ -14,7 +14,7 @@ console.log(allNew);
 
 console.log(Array.isArray("jagrati"));
 console.log(Array.from("jagrstuvv"));
-console.log(Array.from({name:"jagrati"}));
+console.log(Array.from({name:"jagrati"}));  //imp
 let score1=100;
 let score2=200;
 let score3=300;
