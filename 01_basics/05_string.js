@@ -25,3 +25,10 @@ console.log(url.replace('%20','-'));
 
 console.log(url.includes('meenu'));
 console.log(gameName.split('-'));
+
+//string length
+//str.length  use to find the length of string
+let s1="jagrti kanthali";
+console.log(s1);
+let sp=`this is a template ${s1}`;
+console.log(sp);
