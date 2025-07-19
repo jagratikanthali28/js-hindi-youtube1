@@ -12,3 +12,7 @@ console.log(obj1.color)
 console.log(obj1.price)
 console.log(obj1.offer)
 console.log(obj1.rating)
+
+
+//inside comments discribe that is written something special or extra  it is sinle line commment
+/*  it is multi line comments in java script */
