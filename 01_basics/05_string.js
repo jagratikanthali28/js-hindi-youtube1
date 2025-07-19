@@ -32,3 +32,10 @@ let s1="jagrti kanthali";
 console.log(s1);
 let sp=`this is a template ${s1}`;
 console.log(sp);
+
+let n1ew ="jagrati \nkanrgs";
+console.log(n1ew);
+console.log(n1ew.length);
+
+console.log(n1ew.toUpperCase());
+console.lg
