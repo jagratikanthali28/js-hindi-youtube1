@@ -56,3 +56,14 @@ console.log(veggi);
 console.log(noew);
 
 let arr=[1,2,34,5];
+
+let cop=["bloomverg","microsoft","uber","google","IBM","netflix"];
+for(let arr of cop)
+{
+    console.log(arr);
+}
+console.log(cop.shift())
+
+
+cop.push("amazon");
+console.log(cop)
