@@ -1,6 +1,7 @@
 //array
 const myArr=[0,1,2,3,4];
 const myHeroes=["shakti","naggg"];
+const info=["rahul",86,"delhi"];
 console.log(myArr);
 console.log(myHeroes[1]);
 myArr.push(6);
