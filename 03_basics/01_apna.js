@@ -62,6 +62,79 @@ let an=(a)=>{
 }
 an("jagguaaaaa");
 
-function myFun(){
-    
+
+//callback function
+function myfun(){
+    console.log("hello");
 }
+function  fun(myfun){
+   return myfun;
+}
+
+let arr=[1,2,3,4,5];
+arr.forEach((val)=>{
+    console.log(val);
+});
+
+let arr2=["delhi","pune","mumbai","bhopal"];
+arr2.forEach((val)=>{
+    console.log(val.toUpperCase());
+});
+
+let ar=[1,2,3,4,5,6];
+ar.forEach((val)=>
+{
+   let ans=val*val
+   console.log(ans);
+});
+
+//map in javascript similar to for each loop but the 
+//main difference is it returns new array and doesnot want 
+//to make any changes in old array then we need to use Map 
+
+let a1=[13,14,14,15];
+let ne=a1.map((val)=>
+{
+   return val;
+});
+console.log(ne);
+//
+
+
+//we want to filter out the value which are not even then better to use filter funcyion then if else or any conditional statement
+let a11=[10,12,2,3,13,3]
+let n11=a11.filter((val)=>
+{
+    return val%2!=0
+})
+
+console.log(n11);
+
+//reduce function 
+let a12=[1,2,3,4,5,5,6];
+const output=a12.reduce((res,curr)=>{
+   return  res+curr;
+});
+console.log(output);
+
+let a13=[10,20,3,4,5,5,6];
+const output1=a13.reduce((res,curr)=>{
+   return  res<curr?res:curr;
+});
+console.log(output1);
+
+let j1=[100,200,300,40]
+let j11=j1.filter((val)=>
+{
+
+   return val>90;
+});
+console.log(j11);
+
+let acn=[110,20,30,40,50,60];
+let app=acn.reduce((res,curr)=>
+{
+   return res+curr;
+});
+
+console.log(app);
